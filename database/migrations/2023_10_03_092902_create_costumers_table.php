@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('phone');
             $table->string('address');
             $table->string('zip_code');
-            $table->string('city ');
+            $table->string('city');
             $table->date('date_of_birth');
             $table->timestamps();
         });
